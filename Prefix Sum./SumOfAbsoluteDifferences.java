@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/
+
 import java.lang.reflect.Array;
 import java.util.Arrays;
 

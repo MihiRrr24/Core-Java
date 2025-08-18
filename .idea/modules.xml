@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Basics/Basics.iml" filepath="$PROJECT_DIR$/Basics/Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearchh/BinarySearchh.iml" filepath="$PROJECT_DIR$/BinarySearchh/BinarySearchh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Core-Java.iml" filepath="$PROJECT_DIR$/.idea/Core-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Interview.iml" filepath="$PROJECT_DIR$/Interview/Interview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedLists/LinkedLists.iml" filepath="$PROJECT_DIR$/LinkedLists/LinkedLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2 Pointers/On Arrays/On Arrays.iml" filepath="$PROJECT_DIR$/2 Pointers/On Arrays/On Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2 Pointers/On Strings/On Strings.iml" filepath="$PROJECT_DIR$/2 Pointers/On Strings/On Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Prefix Summ/Prefix Summ.iml" filepath="$PROJECT_DIR$/Prefix Summ/Prefix Summ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" filepath="$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" />
+    </modules>
+  </component>
+</project>

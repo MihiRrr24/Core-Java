@@ -1,0 +1,47 @@
+Trees (Hierarchial, non-linear, chaining in data)
+
+-> Data values are being connected in the form of nodes
+-> Every node will be having a parent and children as null 
+-> Non linear, hierarchial data structure
+	use to implement datbases, file systems
+-> Deletion & insertion is a hectic task to perform
+
+
+
+root (parent)
+edge
+parent
+child
+subtree (left or right subtree)
+ancestor
+descendent
+leaf node (no child)
+ 
+
+
+Types of Tree -
+1. Binary Tree (atmost 2 -> 0, 1, 2) child nodes
+2. Binary Search Trees (left me small value than parent node and right should be greater)
+
+
+Two types of traversal -> 
+1. DFS (Depth First Search)
+2. BFS (Breadth First search)
+
+
+DFS types - 
+node is always root node
+1. Preorder (Node, left, right)
+2. Inorder(LNR)
+3. Post Order (LRN)
+
+Remember jaha bhi null hoga wo usko chhor kr peeche waale node pr jayega
+
+When doing tree questions
+edge case -> think where that function will be null
+where it is null what we have to do
+recursion call return k saath krna h ya nhi
+
+
+
+

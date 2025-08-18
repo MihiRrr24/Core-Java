@@ -1,0 +1,64 @@
+Stacks (Class) & Queues (Interface)
+
+Stacks -> 
+- It is based on LIFO
+- used to store reference of data sets
+
+
+Keywords
+valid, Balancing, Adjacent removal, reverse a data structure in O(N) space
+
+- works on dynamic memory allocation
+
+Utility Methods -> pop, push, isEmpty, size, equals
+
+
+NOTE -->>
+null -> ds k andar naa koi reference ho
+empty -> jab koi value na ho ds me
+0 -> jab function use kr rhe or khaali ho so eg: length 0
+
+
+
+
+
+https://tinyurl.com/ysehpcvu
+
+
+
+
+LInked LIST  :::-----
+
+- Data values are being stored in the form of nodes
+- Every node will have two segments -> 
+1) Data part
+2) Address / Reference part
+
+class Node{
+int data;
+Node next;
+public Node(int data){
+this.data=data;
+this.next=null; 
+} }
+
+- Cons of Using LL:
+1) Random access of elements are not allowed
+2) Pointers to give reference to next & prev takes extra space in the memory
+
+- Based on Dynamic Memory Allocation
+
+Types of LL-->>
+1) Singly LL (next, head)
+2) Doubly LL (next, prev, head)
+3) next, head.next==tail, tail.next = head)
+
+
+
+Array VS LINKED LIST
+- Array works on static and ll on dynamic memory allocation
+- Random acces in array but not in LL
+- Contiguous memory in array but not in ll its  continuous
+- ll takes more space than array
+
+

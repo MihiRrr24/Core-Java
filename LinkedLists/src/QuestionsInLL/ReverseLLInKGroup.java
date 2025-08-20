@@ -51,21 +51,25 @@ public class ReverseLLInKGroup {
         while(temp != null){
             ListNode kNode = getKNode(temp, k);
             if(kNode == null){
+                // think of group not forming case
                 if(prevLast != null) prevLast.next = temp;
                 break;
             }
 
+            // break and reverse the groups
             ListNode nextNode = kNode.next;
             kNode.next = null;
             reverse(temp);
 
+            // if its first group
             if(temp == head){
                 head = kNode;
             }
-            else{
+            else{           // if not
                 prevLast.next = kNode;
             }
 
+            // move prev and temp for every group
             prevLast = temp;
             temp = nextNode;
         }

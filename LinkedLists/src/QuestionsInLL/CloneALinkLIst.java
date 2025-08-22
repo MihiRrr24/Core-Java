@@ -33,6 +33,12 @@ public class CloneALinkLIst {
 
 
         /*      OPTIMAL     */
+//        insertCopyInBetween(head);
+//        connectRandomPointers(head);
+//        return getDeepCopyList(head);
+//    }
+//
+//    public void insertCopyInBetween(Node head){
 //        Node temp = head;
 //
 //        // Step 1 (Insert copynode in between)
@@ -42,19 +48,23 @@ public class CloneALinkLIst {
 //            temp.next = copyNode;
 //            temp = temp.next.next;
 //        }
+//    }
 //
+//    public void connectRandomPointers(Node head){
 //        // step 2 (connect random pointer)
-//        temp = head;
+//        Node temp = head;
 //        while(temp != null){
 //            Node copyNode = temp.next;
 //            copyNode.random = (temp.random!=null) ? temp.random.next : null;
 //            temp = temp.next.next;
 //        }
+//    }
 //
+//    public Node getDeepCopyList(Node head){
 //        // step 3 (connect next pointer)
 //        Node dummyNode = new Node(-1);
 //        Node res = dummyNode;
-//        temp = head;
+//        Node temp = head;
 //        while(temp != null){
 //            res.next = temp.next;
 //            temp.next = temp.next.next;

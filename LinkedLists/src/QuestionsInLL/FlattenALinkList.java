@@ -45,7 +45,7 @@ public class FlattenALinkList {
 
 
 
-    /* OPTIMAL */
+    /*      OPTIMAL         */
 //    Node flatten(Node root) {
 //        if(root == null || root.next == null) return root;
 //

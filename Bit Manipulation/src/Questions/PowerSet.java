@@ -17,12 +17,12 @@ public class PowerSet {
         int subsets = 1<<n;
         List<List<Integer>> ans = new ArrayList<>();;
 
-        for(int i=0; i<subsets; i++)
+        for(int i=0; i<subsets; i++)             // till pow(2, n)
         {
             List<Integer> ls = new ArrayList<>();
-            for(int j=0; j<n; j++)
+            for(int j=0; j<n; j++)              // 0 1 2
             {
-                if((i & (1<<j)) != 0) ls.add(nums[j]);
+                if((i & (1<<j)) != 0) ls.add(nums[j]);  // check the ith bit is 1
             }
             ans.add(ls);
         }

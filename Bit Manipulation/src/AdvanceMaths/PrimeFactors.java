@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class PrimeFactors {
     public static void main(String[] args) {
-        int n = 37;
+        int n = 36;
         ArrayList<Integer> ans = primeFac(n);
         System.out.println(ans);
     }

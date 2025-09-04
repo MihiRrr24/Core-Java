@@ -22,43 +22,43 @@ public class LengthofLoop {
 
     public static int lengthOfLoop(Node head) {
         // BRuteForce
-        Map<Node, Integer> mpp = new HashMap<>();
-        Node temp = head;
-        int timer = 1;
-
-        while (temp != null) {
-            if (mpp.containsKey(temp)) {
-                return timer - mpp.get(temp);
-            }
-
-            mpp.put(temp, timer);
-            timer++;
-            temp = temp.next;
-        }
-        return 0;
+//        Map<Node, Integer> mpp = new HashMap<>();
+//        Node temp = head;
+//        int timer = 1;
+//
+//        while (temp != null) {
+//            if (mpp.containsKey(temp)) {
+//                return timer - mpp.get(temp);
+//            }
+//
+//            mpp.put(temp, timer);
+//            timer++;
+//            temp = temp.next;
+//        }
+//        return 0;
 
 
 
         // OPTIMAL
-//        Node slow = head, fast = head;
-//
-//        while(fast!=null && fast.next!=null){
-        // detect loop first
-//            slow = slow.next;
-//            fast = fast.next.next;
-//
-//            if(slow==fast){
-//                // now find length
-//                int cnt = 1;
-//                fast = fast.next;
-//
-//                while(slow!=fast){
-//                    fast = fast.next;
-//                    cnt++;
-//                }
-//                return cnt;
-//            }
-//        }
-//        return 0;
+        Node slow = head, fast = head;
+
+        while(fast!=null && fast.next!=null){
+//         detect loop first
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if(slow==fast){
+                // now find length
+                int cnt = 1;
+                fast = fast.next;
+
+                while(slow!=fast){
+                    fast = fast.next;
+                    cnt++;
+                }
+                return cnt;
+            }
+        }
+        return 0;
     }
 }

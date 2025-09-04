@@ -55,7 +55,7 @@ public class ReverseDLL {
         if(head == null || head.next == null) return head;
 
         // BRUTEFORCE
-//        Node  temp = head;
+//        Node temp = head;
 //        Stack<Integer> st = new Stack<>();
 //
 //        while(temp != null){

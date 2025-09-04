@@ -69,6 +69,7 @@ public class DeletionOfHead {
 
 
     // deletion from Kth position
+    // https://www.geeksforgeeks.org/problems/remove-every-kth-node/1
     public static Node removeK(Node head, int k){
         // empty LL
         if(head == null) return null;
@@ -136,7 +137,7 @@ public class DeletionOfHead {
 
 
         // deletion from tail
-//        head = deleteFromTail(head);
+        head = deleteFromTail(head);
 
 
         // deletion from position
@@ -145,7 +146,7 @@ public class DeletionOfHead {
 
 
         // deletion from value
-        head = removeElement(head, 16);
+//        head = removeElement(head, 16);
         print(head);
     }
 }

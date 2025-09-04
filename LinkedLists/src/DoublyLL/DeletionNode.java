@@ -124,8 +124,8 @@ public class DeletionNode {
 
         // last element
         if(front == null){
-            prev.next = null;
             temp.back = null;
+            prev.next = null;
             return;
         }
 

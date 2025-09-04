@@ -23,12 +23,11 @@ public class JavaImplement {
         Node head = new Node(arr[0]);
         Node prev = head;
 
-        for (int i = 1; i < arr.length; i++) {
+        for(int i=1; i< arr.length; i++){
             Node temp = new Node(arr[i], null, prev);
             prev.next = temp;
             prev = temp;
         }
-
         return head;
     }
 

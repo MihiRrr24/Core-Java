@@ -63,7 +63,6 @@ public class MiddleOfLL {
 
 
 
-
         // OPTIMAL (Tortoise and Hare)
         ListNode slow = head, fast = head;
         while(fast!=null && fast.next!=null){

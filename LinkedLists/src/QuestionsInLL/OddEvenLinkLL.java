@@ -96,7 +96,7 @@ public class OddEvenLinkLL {
             even.next = even.next.next;
 
             odd = odd.next;
-            even=even.next;
+            even = even.next;
         }
 
         // point the odd end to even start

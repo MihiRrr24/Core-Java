@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/problems/implement-queue-using-array/1
+
 package Introduction;
 
 import java.util.Arrays;
@@ -10,8 +12,7 @@ public class QueueUsingArray {
     public static void push(int x){
         if(currSize == size) System.out.println("Array Size Exceeded");
         if(currSize == 0) { // no elements in array
-            start = 0;
-            end = 0;
+            start = end = 0;
         }
         else{ // if elements are there
             end = (end + 1)%size;
@@ -34,6 +35,7 @@ public class QueueUsingArray {
         else{
             start = (start+1)%size;
         }
+        currSize--;
         return el;
     }
 

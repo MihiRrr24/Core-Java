@@ -39,6 +39,7 @@ public class NextGreaterElement {
 
 
 
+        
         // OPTIMAL
         int[] ans  = new int[100000];
         Stack<Integer> st = new Stack<>();

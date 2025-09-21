@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/immediate-smaller-element1142/1
-package Questions;
 
+package Questions;
 
 import java.util.*;
 

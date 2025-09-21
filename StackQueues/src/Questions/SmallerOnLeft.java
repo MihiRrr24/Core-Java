@@ -11,7 +11,7 @@ public class SmallerOnLeft {
         System.out.println(Arrays.toString(ans));
     }
 
-    public static int[] Smallestonleft(int arr[], int n) {
+    public static int[] Smallestonleft(int[] arr, int n) {
         int[] ans = new int[n];
         TreeSet<Integer> ts = new TreeSet<>();
 

@@ -3,8 +3,7 @@ package DoublyLL;
 public class JavaImplement {
     static class Node {
         int data;
-        Node next;
-        Node back;
+        Node next, back;
 
         Node(int data, Node next, Node back) {
             this.data = data;

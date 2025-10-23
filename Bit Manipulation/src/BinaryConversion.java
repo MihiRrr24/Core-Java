@@ -9,7 +9,7 @@ public class BinaryConversion {
             else res.append('0');
             n = n/2;
         }
-        return res.reverse().toString();
+        int d = Integer.parseInt(res.reverse().toString());
 
 
 
@@ -40,6 +40,5 @@ public class BinaryConversion {
         int n = 13;
         System.out.println("Decimal to Binary : "+convert2Binary(n));
         System.out.println("Binary to Decimal : "+convert2Decimal(convert2Binary(n)));
-
     }
 }

@@ -1,0 +1,132 @@
+Description
+Objective:
+
+To work with arrays.
+
+Concept Explanation:
+
+Arrays serve as a fundamental data structure for organising and processing data efficiently. Arrays can have a fixed size, determined at the time of declaration, or a dynamic size that can be changed during runtime. By iterating over each element in the array, accessing and possibly modifying its value as needed.They are commonly used for tasks like storing lists of items, representing matrices.
+
+Concept Implementation:
+
+Arrays are used to efficiently store user-provided numbers and categorise them into prime and composite groups. Through iteration, each number is assessed as a prime number or not, and based on the result, it's assigned to the appropriate array. These arrays are then sorted to facilitate the retrieval of the largest or smallest numbers. Finally, the sorted arrays enable easy access to the largest prime and either the largest or smallest composite numbers for subsequent calculations. 
+
+Scenario:
+
+Santhosh and Nithish, classmates in the 11th grade, devised a number game. Santhosh presented Nithish with a set of numbers, challenging him to count how many of them were prime and determine the largest prime number in the set. 
+
+After identifying the largest prime number, Nithish was instructed to follow a specific rule: if the largest prime number exceeded 10, he was to add it to the smallest composite number in the set. Conversely, if the largest prime number was  less than 10, he was to add it to the largest composite number in the set. Finally, Nithish was to provide the result of this addition. Write a Java program to assist Nithish. 
+
+
+If the size of the array is less than 2 or greater than 20, the program should print "<arraySize> is an invalid array size". 
+
+Each element in the array must be between 1 and 100 inclusive. If an element falls outside this range, the program should print "<element> is not between 2 and 100"(both inclusive). 
+
+If there are no prime numbers in the array, the program should print "No prime numbers are there in the given Array". 
+
+If there are no composite numbers in the array, the program should print "No composite numbers are there in the given Array".
+
+Example: 
+
+Given array: [32, 2, 8, 55, 3, 10] 
+
+Prime numbers in the array: 2 and 3 
+
+Largest prime number: 3 
+
+Since the maximum prime number is less than or equal to 10, we add it to the greatest composite number in the list, which is 55. 
+
+Result: 3 + 55 = 58 
+
+Hence, the output is 58. 
+
+
+
+Note:
+
+In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user and the rest of the text represents the output.
+Ensure to follow the object-oriented specifications provided in the question.
+Ensure to provide the names for classes, attributes, and methods as specified in the question.
+Adhere to the code template, if provided. 
+Do not use System.exit(0) to terminate the code. 
+
+
+Sample input 1: 
+
+Enter the size of the array 
+
+4 
+
+Enter the array elements 
+
+9 
+
+7 
+
+5 
+
+4 
+
+Sample output 1: 
+
+The output is 16 
+
+
+
+Sample input 2: 
+
+Enter the size of the array 
+
+6 
+
+Enter the array elements 
+
+72 
+
+51 
+
+9 
+
+45 
+
+5 
+
+12 
+
+Sample output 2: 
+
+The output is 77  
+
+ 
+
+Sample input 3: 
+
+Enter the size of the array 
+
+-4 
+
+Sample output 3: 
+
+-4 is an invalid array size 
+
+
+
+Sample input 4: 
+
+Enter the size of the array 
+
+10 
+
+Enter the array elements 
+
+27 
+
+78 
+
+31 
+
+0 
+
+Sample output 4: 
+
+0 is not between 2 and 100. 
